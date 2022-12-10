@@ -1,18 +1,20 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - prints alphabets in lowercase
  * Return: 0
  */
 int main(void)
 {
-	char x;
+	int ch;
 
-	for(int x = 'a'; x <= 'z'; x++)
+	for(ch = 'a'; ch <= 'z'; ch++)
 
 	{
 
-		 putchar(x);
+		 putchar(ch);
 
 	}
+	putchar('\n);
+return (0)
 }
