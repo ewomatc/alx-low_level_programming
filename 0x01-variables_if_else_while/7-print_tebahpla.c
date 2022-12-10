@@ -11,7 +11,7 @@ int main(void)
 
 	for (num = 'z'; num >= 'a'; num--)
 	{
-		puchar(a);
+		putchar(num);
 	}
 	putchar('\n');
 	return (0);
